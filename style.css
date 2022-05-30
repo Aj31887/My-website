@@ -1,0 +1,143 @@
+#bild
+{
+    width: 300px;
+}
+
+
+body
+{
+    text-align: center;
+    font-size: larger;
+    margin:0;
+    padding:0;
+    overflow-x:hidden;
+    background-color:azure;
+}
+
+#name
+{
+    font-size: 80px;
+    font-family: 'The Nautigal', cursive;
+}
+
+.bigLinks a
+{
+background-color:darkgoldenrod;
+padding: 15px;
+border-radius: 10px;
+    margin: 22px 5px;
+    font-size: large;
+    font-family: 'Arvo', serif;
+    text-decoration: none;
+    color: white;
+    
+}
+
+.smallLinks a
+{
+background-color:saddlebrown;
+padding: 15px;
+border-radius: 15px;
+    margin: 22px 0px 22px 22px;
+    font-size:medium;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: white;
+    
+}
+
+
+#footer
+{
+    margin: auto;
+    padding: 250px 25% 25px 25%;
+    background-color:aquamarine ;
+    font-size: medium;
+}
+
+#content
+{
+    
+    margin: 100px 15% 125px 15%;
+    font-size: larger;
+    
+}
+
+
+.project
+{
+
+    margin: 20px;
+    border-radius: 35px;
+    padding: 40px 30px 60px 30px;
+background-color:aqua;
+
+}
+
+.projectImage
+{
+border-radius: 15px;
+    width: 270px;
+   
+}
+
+
+
+#Carda
+{
+    
+    text-align: left;
+    margin: auto;
+    width: 80%;
+    font-size: 110%;
+}
+
+
+#Card
+{
+    
+    text-align: left;
+    margin: auto;
+    width: 400px;
+    font-size: 95%;
+}
+
+
+
+.icon
+{
+    width: 25px;
+    height: 25px;
+}
+
+@media screen and (max-width: 600px) {
+    #Card, #content {
+      width: 97%; /* The width is 100%, when the viewport is 800px or smaller */
+      margin: 50px 5px 125px 10px;
+    }
+
+#Carda
+{
+    width: 90%;
+
+}
+
+.smallLinks a
+{
+    font-size: 58%;
+}
+
+#name
+{
+    font-size: 350%;
+}
+
+.projectImage
+{
+
+    width: 250px;
+   
+}
+
+  }
+
