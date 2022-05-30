@@ -14,7 +14,7 @@ body
     background-color:azure;
 }
 
-#name
+.name
 {
     font-size: 80px;
     font-family: 'The Nautigal', cursive;
@@ -127,7 +127,7 @@ border-radius: 15px;
     font-size: 58%;
 }
 
-#name
+.name
 {
     font-size: 350%;
 }
