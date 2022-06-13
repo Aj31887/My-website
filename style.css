@@ -1,4 +1,4 @@
-#bild
+#myPicture
 {
     width: 300px;
 }
@@ -14,13 +14,13 @@ body
     background-color:azure;
 }
 
-.name
+.hugeNiceText
 {
     font-size: 80px;
     font-family: 'The Nautigal', cursive;
 }
 
-.bigLinks a
+.buttonLinks a
 {
 background-color:darkgoldenrod;
 padding: 15px;
@@ -33,7 +33,7 @@ border-radius: 10px;
     
 }
 
-.smallLinks a
+#contactCard a
 {
 background-color:saddlebrown;
 padding: 15px;
@@ -55,7 +55,7 @@ border-radius: 15px;
     font-size: medium;
 }
 
-#content
+#pageContent
 {
     
     margin: 100px 15% 125px 15%;
@@ -83,7 +83,7 @@ border-radius: 15px;
 
 
 
-#Carda
+#textParagraph
 {
     
     text-align: left;
@@ -93,7 +93,7 @@ border-radius: 15px;
 }
 
 
-#Card
+#contactCard
 {
     
     text-align: left;
@@ -112,23 +112,23 @@ border-radius: 15px;
 
 /* when the viewport is 600px or smaller, these apply: */
 @media screen and (max-width: 600px) {
-    #Card, #content {
+    #contactCard, #pageContent {
       width: 97%; 
       margin: 50px 5px 125px 10px;
     }
 
-#Carda
+#textParagraph
 {
     width: 90%;
 
 }
 
-.smallLinks a
+#contactCard a
 {
     font-size: 58%;
 }
 
-.name
+.hugeNiceText
 {
     font-size: 350%;
 }
